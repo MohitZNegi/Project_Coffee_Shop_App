@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_Coffee_Shop_App.Views.HotDrinksPage"
+             Title="Hot Drinks">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Black">
+            <Label FontSize="50" FontAttributes="Italic" VerticalTextAlignment="Center" TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                Hot Drinks
+            </Label>
+ 
+            <ScrollView>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Frame BackgroundColor="#272a2e" Grid.Row="0" Grid.Column="0">
+                        <Label FontSize="25"  FontAttributes="Italic"  TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                            Coffee 
+                        </Label>
+                    </Frame>
+                    <Frame BackgroundColor="#272a2e" Grid.Row="0" Grid.Column="1" >
+                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#ccddff" HorizontalTextAlignment="Center">
+                            $4.50
+                        </Label>
+                    </Frame>
+                    <Frame BackgroundColor="#272a2e" Grid.Row="1" Grid.Column="0">
+                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                            Green tea
+                        </Label>
+                    </Frame>
+                    <Frame BackgroundColor="#272a2e" Grid.Row="1" Grid.Column="1" >
+                        <Label FontSize="25" FontAttributes="Italic"  TextColor="#ccddff" HorizontalTextAlignment="Center">
+                            $5.90
+                        </Label>
+                    </Frame>
+                    <Frame BackgroundColor="#272a2e" Grid.Row="2" Grid.Column="0"  >
+                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                            Hot lemon
+                        </Label>
+                    </Frame>
+                    <Frame BackgroundColor="#272a2e" Grid.Row="2" Grid.Column="1"  >
+                        <Label FontSize="25" FontAttributes="Italic"  TextColor="#ccddff" HorizontalTextAlignment="Center">
+                            $4.60
+                        </Label>
+                    </Frame>
+                    <Frame BackgroundColor="#272a2e" Grid.Row="3" Grid.Column="0"  >
+                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                            Hot chocolate
+                        </Label>
+                    </Frame>
+                    <Frame BackgroundColor="#272a2e" Grid.Row="3" Grid.Column="1"  >
+                        <Label FontSize="25" FontAttributes="Italic"  TextColor="#ccddff" HorizontalTextAlignment="Center">
+                            $3.50
+                        </Label>
+                    </Frame>
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

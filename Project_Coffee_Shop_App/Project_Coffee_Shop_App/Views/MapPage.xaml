@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_Coffee_Shop_App.Views.MapPage"
+             Title="Map">
+    <ContentPage.Content>
+        <StackLayout>
+            <WebView Source="https://www.google.com/maps/place/4A+Kent+Street,+Newmarket,+Auckland+1023/@-36.8681051,174.7735874,17z/data=!4m6!3m5!1s0x6d0d4876eda9997b:0x6be9754cf6f407fe!8m2!3d-36.8681051!4d174.7757761!16s%2Fg%2F11h6qj2v2p"
+                     VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

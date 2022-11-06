@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "MDmblIxbW9sl+Q+KXTu26TrQebw+LYyk/rHgEwWKdeNGN/3Wca+lVSzuqCfLHAufvoANRZhKlcYSlpMMYAuXZA==",
+  "success": true,
+  "projectFilePath": "D:\\L6_SD\\Project_Coffee_Shop_App\\Project_Coffee_Shop_App\\Project_Coffee_Shop_App.iOS\\Project_Coffee_Shop_App.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mohit.DESKTOP-5H1SSN8\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

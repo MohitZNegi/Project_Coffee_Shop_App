@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_Coffee_Shop_App.Views.MenuPage"
+             Title="Menu">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Background="Black">
+                <!-- Coffee Shop Logo-->
+                <StackLayout BackgroundColor="Transparent">
+                <Image Source="logo.png"   ></Image>
+            </StackLayout>
+                <!-- Espresso Button-->
+                <Frame BackgroundColor="#272a2e" CornerRadius="0"  >
+                <Button x:Name="EspressoButton" Text="Espresso"  FontSize="30" Opacity="1000" CornerRadius="10"
+                        FontAttributes="Bold" BackgroundColor="#ccddff" TextColor="#cc7a00" Clicked="EspressoButton_Clicked" />
+
+            </Frame>
+                <!-- Hot Drinks Button-->
+                <Frame BackgroundColor="#272a2e" CornerRadius="0" >
+                <Button x:Name="HotDrinksButton" Text="Hot Drinks" FontSize="30" CornerRadius="10"
+                        FontAttributes="Bold" BackgroundColor="#ccddff" TextColor="#cc7a00" Clicked="HotDrinksButton_Clicked" />
+            </Frame>
+                <!-- Cold Drinks Button-->
+                <Frame BackgroundColor="#272a2e" CornerRadius="0" >
+                <Button x:Name="ColdDrinksButton" Text="Cold Drinks" FontSize="30" CornerRadius="10"
+                        FontAttributes="Bold" BackgroundColor="#ccddff" TextColor="#cc7a00" Clicked="ColdDrinksButton_Clicked" />
+            </Frame>
+                <!-- Quick Bites Button-->
+                <Frame BackgroundColor="#272a2e" CornerRadius="0" >
+                <Button x:Name="QuickBitesButton" Text="Quick Bites" FontSize="30" CornerRadius="10"
+                        FontAttributes="Bold" BackgroundColor="#ccddff" TextColor="#cc7a00" Clicked="QuickBitesButton_Clicked" />
+            </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+    
+</ContentPage>

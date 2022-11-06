@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Project_Coffee_Shop_App.Views.AboutPage"
+             xmlns:vm="clr-namespace:Project_Coffee_Shop_App.ViewModels"
+             Title="{Binding Title}">
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout BackgroundColor="Black">
+
+            <StackLayout BackgroundColor="#403d43">
+                <Image Source="banner.jpeg" Aspect="AspectFill"></Image>
+            </StackLayout>
+            <Label FontSize="50" FontAttributes="Bold"   TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                Jules Cafe
+            </Label>
+            <Label FontSize="20" FontAttributes=  "Italic"  TextColor="#ccddff" VerticalTextAlignment="Center" HorizontalTextAlignment="Center">
+                4A Kent Street Newmarket 1023
+            </Label >
+
+            <Label FontSize="20" FontAttributes="Italic"  TextColor="#ccddff" HorizontalTextAlignment="Center">
+                +64 9 444 5555
+            </Label>
+            <Label FontSize="20" FontAttributes="Italic"  TextColor="#ccddff" HorizontalTextAlignment="Center">
+                info@julescafe.co.nz
+            </Label>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+            <ImageButton x:Name="Instagram_login" Grid.Row="0" Grid.Column="2" BackgroundColor="Transparent"
+                         Source="instagram.png" Command="{Binding Instagram_login}" HeightRequest="60"></ImageButton>
+            <ImageButton x:Name="Facebook_login" Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent"
+                         Source="facebook.png" Command="{Binding Facebook_login}"  HeightRequest="60"></ImageButton>
+
+
+
+            </Grid>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
