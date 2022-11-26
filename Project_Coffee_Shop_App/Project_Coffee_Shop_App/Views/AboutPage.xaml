@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Project_Coffee_Shop_App.Views.AboutPage"
              xmlns:vm="clr-namespace:Project_Coffee_Shop_App.ViewModels"
-             Title="{Binding Title}">
+             Title="About">
     
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
@@ -16,12 +16,12 @@
     </ContentPage.Resources>
 
     <ScrollView>
-        <StackLayout BackgroundColor="Black">
+        <StackLayout BackgroundColor="#944307">
 
             <StackLayout BackgroundColor="#403d43">
                 <Image Source="banner.jpeg" Aspect="AspectFill"></Image>
             </StackLayout>
-            <Label FontSize="50" FontAttributes="Bold"   TextColor="#cc7a00" HorizontalTextAlignment="Center">
+            <Label FontSize="50" FontAttributes="Bold,Italic"   TextColor="#FAC063" HorizontalTextAlignment="Center">
                 Jules Cafe
             </Label>
             <Label FontSize="20" FontAttributes=  "Italic"  TextColor="#ccddff" VerticalTextAlignment="Center" HorizontalTextAlignment="Center">

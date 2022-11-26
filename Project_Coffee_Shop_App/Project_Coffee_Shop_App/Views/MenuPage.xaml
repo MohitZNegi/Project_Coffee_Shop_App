@@ -4,35 +4,39 @@
              x:Class="Project_Coffee_Shop_App.Views.MenuPage"
              Title="Menu">
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout Background="Black">
+       
+            <StackLayout Background="#944307">
                 <!-- Coffee Shop Logo-->
                 <StackLayout BackgroundColor="Transparent">
-                <Image Source="logo.png"   ></Image>
+                <Image Source="Logo_Cafe.png"  HeightRequest="280"  ></Image>
             </StackLayout>
+            <ScrollView>
+                <StackLayout  Margin="20,35,20,20">
                 <!-- Espresso Button-->
-                <Frame BackgroundColor="#272a2e" CornerRadius="0"  >
+                <StackLayout BackgroundColor="Transparent"  >
                 <Button x:Name="EspressoButton" Text="Espresso"  FontSize="30" Opacity="1000" CornerRadius="10"
-                        FontAttributes="Bold" BackgroundColor="#ccddff" TextColor="#cc7a00" Clicked="EspressoButton_Clicked" />
+                        FontAttributes="Bold" BackgroundColor="#FAC063" TextColor="#944307" Clicked="EspressoButton_Clicked" />
 
-            </Frame>
+            </StackLayout>
                 <!-- Hot Drinks Button-->
-                <Frame BackgroundColor="#272a2e" CornerRadius="0" >
+                <StackLayout BackgroundColor="Transparent">
                 <Button x:Name="HotDrinksButton" Text="Hot Drinks" FontSize="30" CornerRadius="10"
-                        FontAttributes="Bold" BackgroundColor="#ccddff" TextColor="#cc7a00" Clicked="HotDrinksButton_Clicked" />
-            </Frame>
+                        FontAttributes="Bold" BackgroundColor="#FAC063" TextColor="#944307" Clicked="HotDrinksButton_Clicked" />
+            </StackLayout>
                 <!-- Cold Drinks Button-->
-                <Frame BackgroundColor="#272a2e" CornerRadius="0" >
+                <StackLayout BackgroundColor="Transparent"  >
                 <Button x:Name="ColdDrinksButton" Text="Cold Drinks" FontSize="30" CornerRadius="10"
-                        FontAttributes="Bold" BackgroundColor="#ccddff" TextColor="#cc7a00" Clicked="ColdDrinksButton_Clicked" />
-            </Frame>
+                        FontAttributes="Bold" BackgroundColor="#FAC063" TextColor="#944307" Clicked="ColdDrinksButton_Clicked" />
+            </StackLayout>
                 <!-- Quick Bites Button-->
-                <Frame BackgroundColor="#272a2e" CornerRadius="0" >
+                <StackLayout BackgroundColor="Transparent"  >
                 <Button x:Name="QuickBitesButton" Text="Quick Bites" FontSize="30" CornerRadius="10"
-                        FontAttributes="Bold" BackgroundColor="#ccddff" TextColor="#cc7a00" Clicked="QuickBitesButton_Clicked" />
-            </Frame>
+                        FontAttributes="Bold" BackgroundColor="#FAC063" TextColor="#944307" Clicked="QuickBitesButton_Clicked" />
+            </StackLayout>
         </StackLayout>
-        </ScrollView>
+            </ScrollView>
+        </StackLayout>
+        
     </ContentPage.Content>
     
 </ContentPage>

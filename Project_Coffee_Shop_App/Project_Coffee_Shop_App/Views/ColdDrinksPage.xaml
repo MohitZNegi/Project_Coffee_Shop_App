@@ -4,8 +4,8 @@
              x:Class="Project_Coffee_Shop_App.Views.ColdDrinksPage"
              Title="Cold Drinks">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="Black">
-            <Label FontSize="50" FontAttributes="Italic" VerticalTextAlignment="Center" TextColor="#cc7a00" HorizontalTextAlignment="Center">
+        <StackLayout BackgroundColor="#944307">
+            <Label FontSize="50" FontAttributes="Bold,Italic" VerticalTextAlignment="Center" TextColor="#FAC063" HorizontalTextAlignment="Center">
                 Cold Drinks
             </Label>
 
@@ -26,7 +26,7 @@
                         <ColumnDefinition Width="*"></ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     <Frame BackgroundColor="#272a2e" Grid.Row="0" Grid.Column="0">
-                        <Label FontSize="25"  FontAttributes="Italic"  TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                        <Label FontSize="25"  FontAttributes="Italic"  TextColor="#FAC063" HorizontalTextAlignment="Center">
                             Water
                         </Label>
                     </Frame>
@@ -36,7 +36,7 @@
                         </Label>
                     </Frame>
                     <Frame BackgroundColor="#272a2e" Grid.Row="1" Grid.Column="0">
-                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#FAC063" HorizontalTextAlignment="Center">
                             Lemonade
                         </Label>
                     </Frame>
@@ -46,7 +46,7 @@
                         </Label>
                     </Frame>
                     <Frame BackgroundColor="#272a2e" Grid.Row="2" Grid.Column="0"  >
-                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#FAC063" HorizontalTextAlignment="Center">
                             Coke cola
                         </Label>
                     </Frame>
@@ -56,7 +56,7 @@
                         </Label>
                     </Frame>
                     <Frame BackgroundColor="#272a2e" Grid.Row="3" Grid.Column="0"  >
-                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#cc7a00" HorizontalTextAlignment="Center">
+                        <Label FontSize="25" FontAttributes="Italic"   TextColor="#FAC063" HorizontalTextAlignment="Center">
                             Ice Tea
                         </Label>
                     </Frame>

@@ -585,3 +585,4 @@ D:\L6_SD\Project_Coffee_Shop_App\Project_Coffee_Shop_App\Project_Coffee_Shop_App
 D:\L6_SD\Project_Coffee_Shop_App\Project_Coffee_Shop_App\Project_Coffee_Shop_App.Android\obj\Debug\110\res\drawable\egg_b.png
 D:\L6_SD\Project_Coffee_Shop_App\Project_Coffee_Shop_App\Project_Coffee_Shop_App.Android\obj\Debug\110\res\drawable\menu.png
 D:\L6_SD\Project_Coffee_Shop_App\Project_Coffee_Shop_App\Project_Coffee_Shop_App.Android\obj\Debug\110\res\drawable\map.png
+D:\L6_SD\Project_Coffee_Shop_App\Project_Coffee_Shop_App\Project_Coffee_Shop_App.Android\obj\Debug\110\res\drawable\logo_cafe.png
